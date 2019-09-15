@@ -1,0 +1,35 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+
+/* ここからCSSを記述してください */
+body {
+}
+.header {
+  background-color: green;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+}
+
+.header-list {
+  float: left; 
+}
+
+.header-list li {
+  padding: 33px 10px;
+}
+
+.header-exit {
+}

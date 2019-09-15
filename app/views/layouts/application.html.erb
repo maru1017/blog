@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <script type="text/javascript">
+  </head>
+
+  <body>
+      <header class="header">
+      <div class="header-logo">Blog</div>
+      <div class="header-list">
+        <ul>
+          <li>SignIn</li>
+          <li>SignOut</li>
+          <li>New</li>
+        </ul>
+        </div>
+        <div class="header-exit">edit</div>
+      </div>
+    </header>
+
+    <%= yield %>
+  </body>
+</html>
+<html>
